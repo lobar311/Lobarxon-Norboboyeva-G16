@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    td {
+      vertical-align: middle;
+    }
+  </style>
+  <body>
+    <div class="container py-5">
+      <div
+        class="container d-flex justify-content-center align-items-center"
+        style="height: 100vh"
+      >
+        <div class="card p-5 shadow">
+          <h2 class="mb-4">Login</h2>
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email manzil</label>
+              <input
+                type="text"
+                class="form-control"
+                id="email"
+                aria-describedby="usernameHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">parol</label>
+              <input type="password" class="form-control" id="password" />
+            </div>
+            <div class="text-center">
+              <button type="button" onclick="login()" class="btn btn-primary">
+                Login
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.min.js"
+      integrity="sha512-GqfnfvLSxXfRw1iHPQx85Bgn8frLO2FAAkJ/EnNCN9hGwlKAs/pxeSy3Wn7MbSW+EX1J4ojWeRCe5R1OmuTLjg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/api.js"></script>
+    <script src="./js/logn.js"></script>
+    <script src="./js/departments.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
